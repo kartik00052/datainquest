@@ -1,0 +1,5 @@
+{
+  "id": "02_timeout",
+  "expected_category": "TRANSIENT_NETWORK",
+  "log": "Connecting to sftp.partner.example:22\nsocket.timeout: timed out\nairflow.exceptions.AirflowException: SFTP connection timed out after 30s"
+}

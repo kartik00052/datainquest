@@ -1,0 +1,5 @@
+{
+  "id": "03_bad_sql",
+  "expected_category": "SCHEMA_SQL",
+  "log": "psycopg.errors.UndefinedColumn: column \"amount_usd\" does not exist\nLINE 1: SELECT amount_usd FROM sales WHERE day = '2026-11-01'"
+}

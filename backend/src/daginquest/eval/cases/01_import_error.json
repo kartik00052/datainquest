@@ -1,0 +1,5 @@
+{
+  "id": "01_import_error",
+  "expected_category": "IMPORT_ERROR",
+  "log": "Traceback (most recent call last):\n  File \"dags/etl.py\", line 8, in transform\n    import pandas_extras\nModuleNotFoundError: No module named 'pandas_extras'"
+}
